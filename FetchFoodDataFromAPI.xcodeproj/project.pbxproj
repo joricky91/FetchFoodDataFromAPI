@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		515E2318296C055D00BD0799 /* FetchFoodDataFromAPIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515E2317296C055D00BD0799 /* FetchFoodDataFromAPIApp.swift */; };
+		515E231A296C055D00BD0799 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515E2319296C055D00BD0799 /* ContentView.swift */; };
+		515E231C296C055F00BD0799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515E231B296C055F00BD0799 /* Assets.xcassets */; };
+		515E231F296C055F00BD0799 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515E231E296C055F00BD0799 /* Preview Assets.xcassets */; };
+		515E2326296C056D00BD0799 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515E2325296C056D00BD0799 /* Meal.swift */; };
+		515E2328296C057700BD0799 /* FoodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515E2327296C057700BD0799 /* FoodViewModel.swift */; };
+		515E232A296C058100BD0799 /* FoodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515E2329296C058100BD0799 /* FoodListView.swift */; };
+		515E2330296C17E100BD0799 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515E232F296C17E100BD0799 /* NetworkManager.swift */; };
+		515E2340296C25D500BD0799 /* FoodDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515E233F296C25D500BD0799 /* FoodDetailsView.swift */; };
+		515E2344296C260900BD0799 /* FoodDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515E2343296C260900BD0799 /* FoodDetail.swift */; };
+		515E2346296C27DB00BD0799 /* FoodDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515E2345296C27DB00BD0799 /* FoodDetailsViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		515E2314296C055D00BD0799 /* FetchFoodDataFromAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchFoodDataFromAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		515E2317296C055D00BD0799 /* FetchFoodDataFromAPIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchFoodDataFromAPIApp.swift; sourceTree = "<group>"; };
+		515E2319296C055D00BD0799 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		515E231B296C055F00BD0799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		515E231E296C055F00BD0799 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		515E2325296C056D00BD0799 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		515E2327296C057700BD0799 /* FoodViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewModel.swift; sourceTree = "<group>"; };
+		515E2329296C058100BD0799 /* FoodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListView.swift; sourceTree = "<group>"; };
+		515E232F296C17E100BD0799 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		515E233F296C25D500BD0799 /* FoodDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailsView.swift; sourceTree = "<group>"; };
+		515E2343296C260900BD0799 /* FoodDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetail.swift; sourceTree = "<group>"; };
+		515E2345296C27DB00BD0799 /* FoodDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailsViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		515E2311296C055D00BD0799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		515E230B296C055D00BD0799 = {
+			isa = PBXGroup;
+			children = (
+				515E2316296C055D00BD0799 /* FetchFoodDataFromAPI */,
+				515E2315296C055D00BD0799 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		515E2315296C055D00BD0799 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				515E2314296C055D00BD0799 /* FetchFoodDataFromAPI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		515E2316296C055D00BD0799 /* FetchFoodDataFromAPI */ = {
+			isa = PBXGroup;
+			children = (
+				515E2317296C055D00BD0799 /* FetchFoodDataFromAPIApp.swift */,
+				515E2319296C055D00BD0799 /* ContentView.swift */,
+				515E231B296C055F00BD0799 /* Assets.xcassets */,
+				515E231D296C055F00BD0799 /* Preview Content */,
+				515E233D296C25AF00BD0799 /* Network */,
+				515E2338296C24C300BD0799 /* Food List */,
+				515E2337296C24AA00BD0799 /* Food Details */,
+			);
+			path = FetchFoodDataFromAPI;
+			sourceTree = "<group>";
+		};
+		515E231D296C055F00BD0799 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				515E231E296C055F00BD0799 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		515E232C296C058D00BD0799 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				515E2325296C056D00BD0799 /* Meal.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		515E232D296C059400BD0799 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				515E2329296C058100BD0799 /* FoodListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		515E232E296C059A00BD0799 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				515E2327296C057700BD0799 /* FoodViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		515E2337296C24AA00BD0799 /* Food Details */ = {
+			isa = PBXGroup;
+			children = (
+				515E2341296C25DE00BD0799 /* Model */,
+				515E233E296C25BD00BD0799 /* View */,
+				515E2342296C25E700BD0799 /* ViewModel */,
+			);
+			path = "Food Details";
+			sourceTree = "<group>";
+		};
+		515E2338296C24C300BD0799 /* Food List */ = {
+			isa = PBXGroup;
+			children = (
+				515E232C296C058D00BD0799 /* Model */,
+				515E232D296C059400BD0799 /* View */,
+				515E232E296C059A00BD0799 /* ViewModel */,
+			);
+			path = "Food List";
+			sourceTree = "<group>";
+		};
+		515E233D296C25AF00BD0799 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				515E232F296C17E100BD0799 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		515E233E296C25BD00BD0799 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				515E233F296C25D500BD0799 /* FoodDetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		515E2341296C25DE00BD0799 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				515E2343296C260900BD0799 /* FoodDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		515E2342296C25E700BD0799 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				515E2345296C27DB00BD0799 /* FoodDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		515E2313296C055D00BD0799 /* FetchFoodDataFromAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 515E2322296C055F00BD0799 /* Build configuration list for PBXNativeTarget "FetchFoodDataFromAPI" */;
+			buildPhases = (
+				515E2310296C055D00BD0799 /* Sources */,
+				515E2311296C055D00BD0799 /* Frameworks */,
+				515E2312296C055D00BD0799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FetchFoodDataFromAPI;
+			productName = FetchFoodDataFromAPI;
+			productReference = 515E2314296C055D00BD0799 /* FetchFoodDataFromAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		515E230C296C055D00BD0799 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					515E2313296C055D00BD0799 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 515E230F296C055D00BD0799 /* Build configuration list for PBXProject "FetchFoodDataFromAPI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 515E230B296C055D00BD0799;
+			productRefGroup = 515E2315296C055D00BD0799 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				515E2313296C055D00BD0799 /* FetchFoodDataFromAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		515E2312296C055D00BD0799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515E231F296C055F00BD0799 /* Preview Assets.xcassets in Resources */,
+				515E231C296C055F00BD0799 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		515E2310296C055D00BD0799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515E2340296C25D500BD0799 /* FoodDetailsView.swift in Sources */,
+				515E2330296C17E100BD0799 /* NetworkManager.swift in Sources */,
+				515E232A296C058100BD0799 /* FoodListView.swift in Sources */,
+				515E231A296C055D00BD0799 /* ContentView.swift in Sources */,
+				515E2318296C055D00BD0799 /* FetchFoodDataFromAPIApp.swift in Sources */,
+				515E2346296C27DB00BD0799 /* FoodDetailsViewModel.swift in Sources */,
+				515E2328296C057700BD0799 /* FoodViewModel.swift in Sources */,
+				515E2344296C260900BD0799 /* FoodDetail.swift in Sources */,
+				515E2326296C056D00BD0799 /* Meal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		515E2320296C055F00BD0799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		515E2321296C055F00BD0799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		515E2323296C055F00BD0799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FetchFoodDataFromAPI/Preview Content\"";
+				DEVELOPMENT_TEAM = SHR59DG262;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathanRicky.FetchFoodDataFromAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		515E2324296C055F00BD0799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FetchFoodDataFromAPI/Preview Content\"";
+				DEVELOPMENT_TEAM = SHR59DG262;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathanRicky.FetchFoodDataFromAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		515E230F296C055D00BD0799 /* Build configuration list for PBXProject "FetchFoodDataFromAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515E2320296C055F00BD0799 /* Debug */,
+				515E2321296C055F00BD0799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		515E2322296C055F00BD0799 /* Build configuration list for PBXNativeTarget "FetchFoodDataFromAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515E2323296C055F00BD0799 /* Debug */,
+				515E2324296C055F00BD0799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 515E230C296C055D00BD0799 /* Project object */;
+}
