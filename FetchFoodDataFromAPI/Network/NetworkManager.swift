@@ -44,7 +44,6 @@ class NetworkManager {
             
             do {
                 let decoded = try JSONDecoder().decode(FoodDetailResponse.self, from: data)
-                print(decoded)
                 
                 DispatchQueue.main.async {
                     completion(decoded.meals)
