@@ -35,7 +35,7 @@ struct FoodDetailsView: View {
                             
                             Text("**Area:** \(detail.area)")
                             
-                            Text("**Tags:** \(detail.foodTags)")
+                            Text("**Tags:** \(detail.foodTags != nil ? detail.foodTags ?? "" : "No tag.")")
                             
                             Text("**Video Link**: ")
                             Link(destination: URL(string: detail.videoURL)!) {
