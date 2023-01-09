@@ -15,6 +15,7 @@ struct FoodDetail: Codable {
     var instructions: String
     var imageURL: String
     var videoURL: String
+    var foodTags: String
     
     enum CodingKeys: String, CodingKey {
         case id = "idMeal"
@@ -24,6 +25,7 @@ struct FoodDetail: Codable {
         case instructions = "strInstructions"
         case imageURL = "strMealThumb"
         case videoURL = "strYoutube"
+        case foodTags = "strTags"
     }
 }
 

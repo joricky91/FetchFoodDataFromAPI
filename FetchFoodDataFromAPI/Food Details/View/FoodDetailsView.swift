@@ -31,8 +31,12 @@ struct FoodDetailsView: View {
                         .frame(width: UIScreen.main.bounds.width / 2, height: UIScreen.main.bounds.width / 2)
                         
                         VStack(alignment: .leading) {
-                            Text("**Category**: \(detail.category)")
-                            Text("**Area**: \(detail.area)")
+                            Text("**Category:** \(detail.category)")
+                            
+                            Text("**Area:** \(detail.area)")
+                            
+                            Text("**Tags:** \(detail.foodTags)")
+                            
                             Text("**Video Link**: ")
                             Link(destination: URL(string: detail.videoURL)!) {
                                 Text(detail.name)
